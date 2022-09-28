@@ -73,3 +73,19 @@ greetings_2('Julija','Jelicanin');
 
  let resultTwo = name2.toUpperCase();
  console.log(resultTwo);
+
+
+ //for each
+
+ let people = ['mario','luigi','shaun','marco'];
+
+ const logPerson=(person, index)=> {
+    console.log(`${index} - hi ${person}`);
+ };
+
+ people.forEach(logPerson);
+
+//arrow function (using for each)
+ people.forEach((person) => { 
+    console.log(person);
+ });
